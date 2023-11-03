@@ -1,10 +1,9 @@
-import '../App.css'
-import logo from '../images/airbnb 1.png'
+import '../style.css'
 
 function Navbar(){
     return(
         <div className="Navbar">
-            <img src={logo} alt="logo" className="logo"/>
+            <img src='images/logo.svg' alt="logo" className="logo"/>
         </div>
     )
 }
